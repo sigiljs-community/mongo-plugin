@@ -13,6 +13,8 @@ export interface MongoPluginConfig {
  * Plugin for SigilJS framework that provides MongoDB interactions
  */
 export default class MongoPlugin extends SigilPlugin<MongoPluginConfig> {
+  public static name = "MongoPlugin"
+
   readonly #client: MongoClient
   constructor() {
     super()
