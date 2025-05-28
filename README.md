@@ -1,5 +1,10 @@
 # Sigil MongoDB Plugin
 
+> [!WARNING]
+> Mongo database abstraction plugin for SigilJS is now deprecated. Please use `@kurai-io/mongo` instead
+> 
+> https://github.com/kurai-foundation/mongo
+
 Plugin for SigilJS framework that provides MongoDB interactions
 
 ## Installation
